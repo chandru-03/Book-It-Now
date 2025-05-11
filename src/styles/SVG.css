@@ -1,0 +1,305 @@
+
+  .svg-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .svg-wrapper svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  svg {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .zoom-controls{
+    position: fixed;
+    bottom: 15%;
+    right: 20px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  .zoom-controls span{
+    color: #e1e1e1;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .zoom-controls p{
+    color: #d3d3d390  ;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .st0, .yst0, .vst0, .cls-1, .tst0,
+  .st1, .yst1, .vst1, .cls-2, .tst1,
+  .st2, .yst2, .vst2, .cls-3, .tst2,
+  .st3, .yst3, .vst3, .cls-4, .tst3,
+  .st4, .yst4, .vst4, .cls-5, .tst4,
+  .st5, .yst5, .vst5, .cls-6, .tst5
+  .st6, .yst6, .vst6, .cls-7,
+  .st7, .cls-8
+  .st8,
+  .st9,
+  .st10,
+  .st11 {
+    stroke-width: .5px;
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+  
+  .st0:hover, .vst1:hover, .yst0:hover, .cls-1:hover, .tst1:hover,
+  .st1:hover, .vst2:hover, .yst1:hover, .cls-2:hover, .tst2:hover,
+  .st2:hover, .vst3:hover, .yst2:hover, .cls-3:hover, .tst3:hover,
+  .st3:hover, .vst4:hover, .yst3:hover, .cls-4:hover, .tst4:hover,
+  .st4:hover, .vst5:hover, .yst4:hover, .cls-5:hover, .tst5:hover,
+  .st5:hover, .vst6:hover, .cls-6:hover, 
+  .st6:hover, .cls-7:hover,
+  .st7:hover,
+  .st8:hover,
+  .st11:hover {
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    transform: translate(2.5px, 2.5px);
+  }
+  
+.yst0, .vst4, .vst5 {
+    fill: #9bdd83;
+  }
+
+  .yst1, .vst3{
+    fill: #ff7b9a;
+  }
+
+  .yst2, .vst2, .tst4, .cls-4, .st8 {
+    fill: #ffc573;
+  }
+
+  .yst3, .vst1, .tst1, .cls-2 {
+    fill: #bfe6f3;
+  }
+
+  .yst4, .vst6, .st7{
+    fill: #ecc4f3;
+  }
+
+  .yst5, .vst0, .tst0, .cls-8, .yst6 {
+    fill: #d9d9da;
+    cursor: not-allowed;
+  }
+
+  .st0, .cls-5, .tst2 {
+    fill: #edc7f7;
+  }
+  
+  .st1, .cls-3 {
+    fill: #ff99b3;;
+  }
+  
+  .st2 {
+    fill: #878dff;
+  }
+  
+  .st4, .tst3, .cls-6 {
+    fill: #d3e5a5;
+  }
+  
+  .st5 {
+    fill: #9ccede;
+  }
+  
+  .st6 {
+    fill: #d4b5a3;
+  }
+  
+  
+  .st9 {
+    fill: #999;
+  }
+  
+  .st10 {
+    fill: rgb(91, 91, 91);
+  }
+  
+  .st16 {
+    display: none;
+  }
+
+  .txt1 {
+    font-weight: bold;
+    font-size: 8px;
+    fill: #000
+  }
+  
+  .txt2 {
+    font-weight: bold;
+    font-size: 14px;
+    fill: #000;
+  }
+  
+  .txt3 {
+    font-weight: 900;
+    font-size: 18px;
+    fill: #000
+  }
+  
+  .txt4{
+    fill: #000;
+    font-weight: 900;
+    font-size: 32px;
+    z-index: 99;
+  }
+
+  .txt6{
+    fill: #000;
+    font-weight: 900;
+    font-size: 32px;
+    z-index: 99;
+    width: 100px;
+  }
+
+  .txt5{
+    fill: #ffffff;
+    font-weight: 900;
+    font-size: 32px;
+    z-index: 999;
+  }
+
+  .st-grey {
+    fill: #AAAAAA;
+    opacity: 0.5;
+    stroke: #666666;
+    stroke-width: 1px;
+  }
+
+.cls-1, .st13 {
+  fill: #c6e6de;
+}
+
+.cls-7, .st12 {
+  fill: #f9b9b8;
+}
+
+.tst5, .st3 {
+  fill: #f58763;
+}
+
+
+
+.section-path {
+  stroke: #000000;
+  stroke-width: 1;
+  transition: fill 0.3s ease;
+}
+.section-3000 { fill: #D1C4E9; }
+.section-3000:hover { fill: #B39DDB; }
+.section-5000 { fill: #BBDEFB; }
+.section-5000:hover { fill: #90CAF9; }
+.section-10000 { fill: #C8E6C9; }
+.section-10000:hover { fill: #A5D6A7; }
+.section-4000 { fill: #FFCCBC; }
+.section-4000:hover { fill: #FFAB91; }
+.section-3500 { fill: #F0F4C3; }
+.section-3500:hover { fill: #E6EE9C; }
+.section-2500 { fill: #B3E5FC; }
+.section-2500:hover { fill: #81D4FA; }
+.section-18000 { fill: #FFE0B2; }
+.section-18000:hover { fill: #FFCC80; }
+
+.image-eden{
+  position: absolute;
+  top: 12px;
+  right: 50px;
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.image-narendra{
+  position: absolute;
+  top: 2px;
+  right: 1px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: scale(1.08);
+}
+
+.image-himachal{
+  position: absolute;
+  top: 3px;
+  right: 13px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: scale(1.15);
+}
+
+.image-rajiv{
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: scale(1.02);
+}
+
+.image-ekana{
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: scale(1.04);
+}
+
+@media screen and (max-width: 926px) {
+    .zoom-controls{
+    position: fixed;
+    bottom: 28%;
+    right: 20px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  .zoom-controls span{
+    color: #e1e1e1;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .zoom-controls p{
+    color: #d3d3d390  ;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+}

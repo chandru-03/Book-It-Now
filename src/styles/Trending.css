@@ -1,0 +1,58 @@
+
+.trending-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+
+    .trending-wrapper h3{
+        color: #e1e1e1;
+        font-size: 2.5rem;
+    }
+
+.trending-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .trending-card {
+    width: 25rem;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    background: #d3d3d320;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .trending-card h4 {
+    color: #8f0fff;
+    float: left;
+  }
+  
+  .trending-card h5 {
+    color: darkgray;
+    float: left;
+  }
+
+  @media screen and (max-width: 960px) {
+    .trending-container {
+      align-items: center;
+      flex-wrap: wrap;
+      height: fit-content;
+      gap: 10px;
+      padding: 20px;   
+    }
+    
+  }
+  

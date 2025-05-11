@@ -1,0 +1,240 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header-container{
+    color: #8d8d8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.header-container h2{
+    font-size: 28px;
+    color: white;
+}
+
+
+.hr-line{
+    width: 30%;
+    background-color: rgba(110, 110, 110, 0.5);
+    height: 3px;
+    border-radius: 10px;
+}
+
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: 100vw;
+    height: 100vh;
+}
+
+.movie-container img{
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.movie-container img:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.movie-container h3{
+    margin-top: 20px;
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.movie-view-card {
+    width: 20rem;
+    height: 32rem !important;
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+
+.movie-context{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:#BCBCBC;
+}
+
+.movie-context p{
+    margin-top: 20px;
+    color:#BCBCBC;
+    font-size: 14px;
+}
+
+p{
+    color: #BCBCBC;
+}
+
+
+.filter-container{
+    /* padding: 50px 10px; */
+    color: #d3d3d3;
+    width: 100vw;
+    align-content: center;
+    padding: 10px 20px;
+}
+
+.filter-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.filter-container-set{
+    padding: 50px;
+    color: #d3d3d3;
+}
+.filter-sort{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    min-height: 60vh;
+    transform: translate(-50%,-50%);
+    background-color: #181414 !important;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: auto;
+    scrollbar-width: none;
+    gap: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-header i{
+    color: #d3d3d3;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-header i:hover{
+    color: #8F00FF;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-header h3{
+    color:#d3d3d3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.filter-content{
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.filter-sidebar{
+    flex: 0.4;
+    background-color: #181414;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-sidebar h3{
+    color: #d3d3d3;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.filter-sidebar h3.active{
+    border-left: 5px solid #8F00FF;
+    color: #d3d3d3;
+    background-color: #bcbcbc57;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-options-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter-options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-options{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+}
+
+.filter-options input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    accent-color: #8F00FF;
+    padding: 20px;
+    margin: 20px;
+}
+
+.filter-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-btn{
+    display: flex;
+    gap: 2px;
+}
+
+.filter-btn i{
+    margin-top: 2.5px;
+}
+

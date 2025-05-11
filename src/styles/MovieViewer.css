@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #181414;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-link {
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+}
+  
+.btn-link:hover {
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+/* Movie Viewer Container */
+.movie-viewer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 5rem !important;
+} 
+
+.movie-viewer-container iframe {
+    object-fit: cover;
+    width: 100%;
+    height: 60rem;
+    overflow: hidden;
+}
+
+/* Movie Details */
+.movie-details {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.movie-details img {
+    margin: 20px;
+    padding: 0;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.movie-details-text {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.movie-details-text h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.movie-details-text p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.movie-text-card {
+    display: flex;  
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Movie Rating */
+.movie-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c5c5c5c;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.movie-rating p {
+    margin-top: 15px;
+}
+
+.movie-rating-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 35px;
+    float: right;
+    left: 60%;
+    border-radius: 5px;
+    color: #181414;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Movie Text */
+.movie-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #181414;
+}
+
+.movie-text p {
+    margin-top: 15px;
+    color: #181414;
+}
+
+.round {
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+/* Cast Container */
+.movie-cast-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-cast-text-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row !important;
+    padding: 20px;
+    margin-left: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.cast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.movie-cast-container h2 {
+    color: #fff;
+}
+
+.cast-images {
+    display: flex; 
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding: 20px 40px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 20px;
+} 
+
+.cast-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.card-text h4 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 926px) {
+    .movie-viewer-container {
+        height: 60vh;
+    }
+    
+    .movie-details {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .movie-details img {
+        width: 180px;
+        height: 260px;
+        margin: 10px 20px;
+    }
+    
+    .movie-details-text {
+        margin-left: 20px;
+    }
+    
+    .movie-details-text h1 {
+        font-size: 1.3rem;
+    }
+
+    .movie-details-text p {
+        font-size: 0.8rem;
+    }
+    
+    .movie-cast-text-container {
+        margin-left: 20px;
+        gap: 30px;
+    }
+    .movie-text-card,.movie-rating{
+        display: none;
+    }
+
+    .movie-viewer-container iframe {
+        width: 100% !important;
+        height: 90rem !important;
+    }
+
+    /* .movie-details-text{
+
+    } */
+}
+
+/* Small screens (landscape phones) */
+/* @media screen and (max-width: 768px) {
+    .movie-viewer-container {
+        height: 40vh;
+    }
+    
+    .movie-details {
+        padding: 10px;
+    }
+    
+    .movie-details img {
+        width: 180px;
+        height: 260px;
+        margin: 10px;
+    }
+    
+    .movie-details-text h1 {
+        font-size: 1.8rem;
+    }
+    
+    .movie-details-text p {
+        font-size: 1rem;
+    }
+    
+    .movie-text-card {
+        gap: 10px;
+    }
+    
+    .movie-rating {
+        width: 250px;
+        height: 60px;
+    }
+    
+    .movie-text {
+        min-width: 120px;
+    }
+    
+    .movie-cast-text-container {
+        margin-left: 10px;
+        gap: 20px;
+        padding: 10px;
+    }
+} */
+
+/* Extra small screens (portrait phones) */
+/* @media screen and (max-width: 576px) {
+    .movie-viewer-container {
+        height: 50vh;
+    }
+
+    
+    .movie-details img {
+        width: 160px;
+        height: 220px;
+        float: none;
+        margin: 10px auto;
+    }
+    
+    .movie-details-text {
+        margin: 0;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .movie-details-text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .movie-text-card {
+        justify-content: center;
+    }
+    
+    .movie-rating {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .movie-rating-overlay {
+        left: unset;
+        right: 10px;
+    }
+    
+    .cast-images {
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .movie-cast-text-container {
+        flex-direction: column !important;
+        align-items: center;
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .movie-cast-container {
+        justify-content: center;
+        padding: 10px;
+    }
+} */
+
+/* Fix for very small screens */
+/* @media screen and (max-width: 320px) {
+    .movie-viewer-container {
+        height: 25vh;
+    }
+    
+    .movie-details img {
+        width: 120px;
+        height: 170px;
+    }
+    
+    .movie-details-text h1 {
+        font-size: 1.2rem;
+    }
+    
+    .movie-text {
+        min-width: 100px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+    
+    .cast-images img {
+        width: 80px;
+        height: 80px;
+    }
+} */

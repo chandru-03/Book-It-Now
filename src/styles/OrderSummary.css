@@ -1,0 +1,54 @@
+.ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d3d3d310;
+    padding: 10px 20px;
+    min-width: 30rem;
+    min-height: 30rem;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .ticket-container::after,
+  .ticket-container::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 30px;
+    background-color: #181414;
+    box-shadow: 0 0 0 1px #181414;
+    border-radius: 50%;
+    margin-top: 9.3rem;
+  }
+  
+.ticket-container::before{
+    left: -10px;
+}
+
+.ticket-container::after{
+    right: -10px;
+}
+
+  .ticket-container h5{
+    color: #bcbcbc;
+  }
+  
+  .ticket-container p{
+    color: #bcbcbc70;
+  }
+
+  .dotted-line{
+    margin-top: 50px;
+    height: 1px;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23d3d3d350' stroke-width='1' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  }
+
+
+  
+  

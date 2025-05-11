@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --primary: #3948f1;
+  --secondary: #f1cc39;
+  --terinary: #f13939;
+  --quaternary: #ff2df1;
+}
+
+.btns-mobile {
+  text-decoration: none; /* Remove underline from the Link */
+  display: inline-block; /* Ensure proper spacing */
+}
+
+.btns {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  all: unset;
+}
+
+.btns a {
+  text-decoration: none;
+}
+
+.btns-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.btns--primary {
+  background-color: transparent;
+  color: var(--primary) !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--secondary {
+  background-color: transparent;
+  color: var(--secondary) !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--terinary {
+  background-color: transparent;
+  color: var(--terinary) !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--quaternary {
+  background-color: transparent;
+  color: var(--quaternary) !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--outline {
+  background-color: transparent;
+  color: #d3d3d3;
+  border: 2px solid #7c7c7c;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btns--outline--bg {
+  background-color: #fff;
+  color: #151515;
+  border: 2px solid #7c7c7c;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+}
+
+.btns--theme--grey{
+  background-color: #d3d3d310;
+  color: #e1e1e1;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+}
+
+.btns--theme--violet {
+  background-color: #8f00ff;
+  color: white !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.btns--theme--violet--not--active {
+  background-color: #d3d3d310;
+  color: #bcbcbc !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--theme--red {
+  background-color: #f13939;
+  color: white !important;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--rounded {
+  border-radius: 100px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #7c7c7c;
+  color: #7c7c7c;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btns--small {
+  padding: 6px 12px;
+  font-size: small;
+  text-decoration: none;
+}
+
+.btns--medium {
+  padding: 12px 18px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.btns--large {
+  padding: 18px 24px;
+  font-size: large;
+}
+
+.btns--width--extra {
+  padding: 18px 60px;
+  font-size: large;
+}
+
+.btns--primary:hover {
+  background-color: rgba(57, 72, 241, 0.7) !important;
+  transition: all 0.3s ease-in !important;
+  text-decoration: none !important;
+}
+
+.btns--secondary:hover {
+  background-color: rgba(241, 204, 57, 0.7) !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btns--terinary:hover {
+  background-color: rgba(241, 57, 57, 0.7) !important;
+  transition: all 0.3s ease-in !important;
+}
+.btns--quaternary:hover {
+  background-color: rgba(255, 45, 241, 0.7) !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.btns--theme--violet:hover {
+  background-color: #9000ffd2;
+  transition: all 0.3s ease-in !important;
+}
+
+.btns--theme--red:hover {
+  background-color: #f139396f;
+  transition: all 0.3s ease-in !important;
+}
+
+.btns--outline:hover {
+  background-color: #fff;
+  color: #151515;
+  transition: all 0.3s ease-in !important;
+}
+
+.btns--AddToCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bcbcbc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.btns--minus, .btns--plus {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}

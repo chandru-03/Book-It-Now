@@ -1,0 +1,68 @@
+.show-timing-header{
+    display: flex;
+    background-color: #141212;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 20px;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    top: 10%;
+}
+
+.cinema-information {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    padding:10px;
+    margin-top: 20px;
+
+}
+
+.cinema-information h3{
+    color: #fff;
+}
+
+
+.show-timing-header img {
+    width: 70px;
+    border-radius: 100px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .show-timings{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .show-timing{
+    width: 100px;
+    min-height: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .show-timing span{
+    font-size: 0.5rem;
+    color: #d3d3d35f;
+  }
+
+  .show-timing:hover{
+    background-color: #9000ff62;
+  }
+
+  .show-timing.active{
+    background-color: #9000ff62;
+  }

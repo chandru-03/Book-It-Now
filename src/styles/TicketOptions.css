@@ -1,0 +1,236 @@
+.ticket-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40rem;
+  width: 100vw;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #d3d3d310;
+  box-shadow: 0px 0px 1px #d3d3d320;
+  position: fixed;
+}
+
+.ticket-header h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #bcbcbc;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.ticket-header i {
+  color: #bcbcbc;
+  transition: all 0.3s ease;
+}
+
+.ticket-header i:hover {
+  color: #8f00ff;
+  transition: all 0.5s ease;
+}
+
+.ticket-options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+
+.ticket-options {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+  background-color: #d3d3d310;
+  padding: 10px 20px;
+  max-width: 50rem;
+  min-height: 30rem;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.select-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #d3d3d310;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.ticket-information{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #d3d3d310;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.ticket-information h5{
+  color: #bcbcbc;
+}
+
+.ticket-information p{
+  color: #bcbcbc70;
+}
+
+.option,
+.pincode {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+  width: 100%;
+  gap: 20px;
+}
+
+.option p {
+  margin-top: 20px;
+}
+
+.select-options input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: transparent;
+  accent-color: #8f00ff;
+}
+
+.pincode input[type="number"] {
+  margin-top: 2.5px;
+  width: 20rem;
+  height: 35px;
+  border: none;
+  background-color: #d3d3d310;
+  border-radius: 5px;
+  color: #8f00ff;
+  margin-left: 50px;
+  appearance: textfield;
+  padding: 10px;
+}
+
+.pincode input[type="number"]::-webkit-outer-spin-button,
+.pincode input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pincode button {
+  margin-top: 2.5px;
+  width: 10rem;
+  height: 35px;
+  border: none;
+  background-color: #bcbcbc20;
+  box-shadow: 0px 0px 5px #9000ff22;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.option-pickup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bcbcbc05;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.option-pickup ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.option-pickup li{
+  color: #bcbcbc70;
+}
+
+.ticket-confirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d3d3d310;
+  padding: 10px 20px;
+  min-width: 30rem;
+  min-height: 30rem;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.ticket-confirmation h5{
+  color: #bcbcbc;
+}
+
+.ticket-confirmation p{
+  color: #bcbcbc70;
+}
+
+.optional-outlines > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.optional-outlines {
+  border: 1px solid #d3d3d310;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+select{
+  padding: 15px;
+  width: 80%;
+  background-color: #d3d3d320;
+  color: #bcbcbc;
+}
+
+@media screen and (max-width: 926px) {
+  .ticket-options-container{
+    flex-direction: column;
+    gap: 10px;
+    margin: 0%;
+  }
+
+  .ticket-options {
+  width: 30rem;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.ticket-confirmation{
+  margin-top: 10px;
+  padding: 0%;
+}
+
+.pincode{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+  
+}
+

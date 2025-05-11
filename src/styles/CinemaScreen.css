@@ -1,0 +1,37 @@
+.screen-seat-container {
+  padding: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screen-seat-container h3 {
+  color: #d3d3d3a6;
+}
+
+.cinema-screen-seat {
+  width: 70%;
+  height: 80px;
+  border: 1px solid #9000ff42;
+  border-top: 5px solid #9000ff63;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  transform: rotateX(60deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cinema-inner-screen {
+  position: absolute;
+  width: 95%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #d3d3d320;
+  border-radius: 40px 40px 0 0;
+  box-shadow: 0px 10px 40px rgba(144, 0, 255, 0.8); /* Soft glow */
+  clip-path: ellipse(90% 100% at center top);
+  margin-top: 10px;
+}

@@ -1,0 +1,148 @@
+.container-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+    gap: 20px;
+  }
+  
+  .container-info i {
+    color: #d3d3d3c4;
+  }
+  
+  .container-info h1 {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .container-info span {
+    color: #8f00ff;
+    float: right;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 99;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+  
+  .arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  
+  .arrow i {
+    cursor: pointer;
+  }
+
+  .movie-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 0%;
+  }
+
+  .movie-slider {
+    display: flex;
+    transition: all 0.6s ease-in-out;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .card-img-top {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .card-img-overlay {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all 0.3s ease-in;
+    opacity: 0;
+  }
+  
+  .card-img-overlay.show {
+    opacity: 1;
+  }
+  
+  .card-img-overlay.hide {
+    opacity: 0;
+  }
+
+  .overlay-content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #242424d5;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    width: 15rem;
+  }
+
+  .card-body{
+    width: 100%;
+    padding: 0%;
+    margin-top: 10px;
+  }
+
+  .card-body h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #dcdcdc;
+  }
+
+  .card-body h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #dcdcdc;
+  }
+
+  .card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+  }
+
+  .card-text{
+    width: 100%;
+    padding: 0%;
+  }
+  
+  .card-text span{
+    padding: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: block;
+  }

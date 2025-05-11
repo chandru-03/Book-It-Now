@@ -6,6 +6,8 @@ import { UserContext } from '../../context/UserContext';
 import Buttons from '../Shared/ui/Buttons';
 import Search from '../Shared/ui/Search';
 import Location from '../Shared/ui/Location';
+import Logo from '../../asset/logo/logo.png'
+import DefaultImg from '../../asset/imgs/user.png'
 
 
 function Navbar() {
@@ -69,7 +71,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" onClick={closeMenu}>
           <div  className="navbar-logo" >
-            <img src="/Assets/Logo/logo_2.png" alt="Logo"/>
+            <img src={Logo} alt="Logo"/>
             </div>
           </Link>
 
@@ -154,7 +156,7 @@ function Navbar() {
 
 
           <div className='navbar-user' onClick={() => navigate('/loginsignup')}>
-           { user ? <img src={user.image} alt="Profile" /> : <p><i class="fa-regular fa-user"></i></p>} 
+           { user ? <img src={user.image || DefaultImg} alt="Profile" /> : <p><i class="fa-regular fa-user"></i></p>} 
           </div>
         </div>
       </nav>

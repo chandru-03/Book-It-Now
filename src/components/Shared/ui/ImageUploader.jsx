@@ -1,5 +1,6 @@
   import React, { useEffect, useRef, useState } from 'react';
   import '../../../styles/ImageUpload.css'
+  import defaultImage from '../../../asset/imgs/user.png'
 
   function ImageUploader({setImage,image}) {
     const [previewSrc, setPreviewSrc] = useState(image || null);
@@ -63,7 +64,7 @@
       <img
         id="preview"
         className="preview-img"
-        src={previewSrc || "/Assets/user.png"}
+        src={previewSrc || defaultImage}
         alt="Profile"
       />
       <input

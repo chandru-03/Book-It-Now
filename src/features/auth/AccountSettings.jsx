@@ -12,11 +12,7 @@ function AccountSettings() {
     const [userData, setUserData] = useState(location.state?.userInfo || {})
     const [image, setImage] = useState(null);
 
-    const {user} = useContext(UserContext);
-
-    console.log("user", user);
-    console.log("user id", userData.id);
-    
+    const { user } = useContext(UserContext);
 
     useEffect(() => {
         if (!location.state?.userInfo) {
@@ -31,12 +27,13 @@ function AccountSettings() {
             const response = await axios.put(`${API_URL}/${id}`, updateData);
             setUserData(response.data);
             localStorage.setItem("user", JSON.stringify(response.data));
+            window.location.reload();
             alert("Profile updated successfully!");
         } catch (error) {
             alert("Failed to update profile.");
             console.error("Error updating user:", error.response?.data || error.message || error);
             console.log("Error in Id", id);
-            
+
         }
     };
 
@@ -51,9 +48,20 @@ function AccountSettings() {
         }
     }
 
+    const removeImage = async (id) => {
+        try {
+            const updatedUser = { ...userData, image: "" };
+            const response = await axios.put(`${API_URL}/${id}`, updatedUser);
+            setUserData(response.data);
+            localStorage.setItem("user", JSON.stringify(response.data));
+            window.location.reload();
+            alert("Profile image removed successfully!");
+        } catch (error) {
+            alert("Failed to remove profile image.");
+            console.error("Image removal error:", error.response?.data || error.message);
+        }
+    };
 
-    console.log("userData", userData);
-    
 
     const handleChange = (e) => {
         setUserData({ ...userData, [e.target.name]: e.target.value })
@@ -73,7 +81,14 @@ function AccountSettings() {
             </div>
             <div className="settings-container">
                 <h1>Account Settings</h1>
-                <ImageUploader setImage={setImage} image={image || userData?.image}/>
+                <ImageUploader setImage={setImage} image={image || userData?.image} />
+                <span
+                    className="material-symbols-outlined"
+                    onClick={() => removeImage(userData?.id)}
+                    style={{ cursor: "pointer", color: "red" }}
+                    title="Remove Profile Image">
+                    delete
+                </span>
                 <form className="settings-container-form">
                     <input
                         type="email"
@@ -120,7 +135,7 @@ function AccountSettings() {
                                 e.preventDefault();
                                 updateUser(userData?.id || user.id)
                                 console.log("userData has Id", userData.id);
-                                
+
                             }}>
                             Update
                         </button>

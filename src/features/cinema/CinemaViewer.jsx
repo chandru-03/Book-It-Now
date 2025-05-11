@@ -7,6 +7,7 @@ import { LocationContext } from "../../context/LocationContext";
 import Filters from "../../components/Shared/ui/Filters";
 import MoviesList from "../../components/Shared/list/MoviesList";
 import { useCinemaSchedule } from "../../context/CinemaScheduleContext";
+import cinemaImg from '../../asset/imgs/Cinema.png'
 
 function CinemaViewer() {
 
@@ -156,7 +157,7 @@ function CinemaViewer() {
                         </Buttons>
                     </div>
                     <div className="movie-poster">
-                        <img src={cinema?.img} alt="Cinema-Poster" />
+                        <img src={cinema?.img || cinemaImg} alt="Cinema-Poster" />
                     </div>
                 </div>
             </div>

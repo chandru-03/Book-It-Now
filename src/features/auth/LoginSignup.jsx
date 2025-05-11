@@ -2,6 +2,7 @@ import React, { useEffect, useReducer, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../../styles/LoginSignup.css";
 import axios from "axios";
+import AlertBox from "../../components/Shared/ui/AlertBox";
 
 const reducer = (state, action) => {
     switch (action) {
@@ -98,9 +99,6 @@ function LoginSignup() {
     }
 
     useEffect(() => {
-        if (localStorage.getItem("user")) {
-            navigate("/profile");
-        };
         fetchUsers();
     }, []);
 

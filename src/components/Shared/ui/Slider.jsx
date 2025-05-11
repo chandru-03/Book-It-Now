@@ -90,7 +90,7 @@ export default function Slider({ item, itemsPerPage, title, link, link2, seeAll 
                                                     {item.rating ? ' | ' : item.venue ? ' | ' : ''}
                                                     <span>{item.type ? item.type : item.genre ? item.genre : item.location}</span>
                                                     |
-                                                    <span>{item.place ? item.place : item.duration ? item.duration : item.date}</span>
+                                                    <span>{item.place ? item.place : item.date ? item.date : item.duration}</span>
                                                 </div>
                                             </div>
 

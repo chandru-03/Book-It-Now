@@ -30,7 +30,7 @@ import AdminDashBoard from './features/admin/AdminDashBoard';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>  
@@ -38,7 +38,7 @@ function App() {
         <Route path="/movies" element={<Movies/>} />
         <Route path="/events" element={<Events/>} />
         <Route path="/profile" element={<Profile/>} />  
-        
+
         <Route path="/movie/:id" element={<MovieViewer />} />
         <Route path="/sports/:teams" element={<SportsViewer/>} />
         <Route path='event/:id' element={<EventViewer/>}/>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Book-It-Now/static/css/main.e4d2dbf9.css",
-    "main.js": "/Book-It-Now/static/js/main.31e25263.js",
+    "main.css": "/Book-It-Now/static/css/main.449df812.css",
+    "main.js": "/Book-It-Now/static/js/main.c36ca4d4.js",
     "static/js/453.0adc9025.chunk.js": "/Book-It-Now/static/js/453.0adc9025.chunk.js",
     "static/media/Bangaluru.png": "/Book-It-Now/static/media/Bangaluru.6467b4484f075eab9964.png",
     "static/media/Delhi.png": "/Book-It-Now/static/media/Delhi.0a143cfad9b0a505ae89.png",
@@ -17,12 +17,12 @@
     "static/media/Cinema.png": "/Book-It-Now/static/media/Cinema.47d42cf17dbadc1380b4.png",
     "static/media/logo.png": "/Book-It-Now/static/media/logo.b398b63d78de03768786.png",
     "index.html": "/Book-It-Now/index.html",
-    "main.e4d2dbf9.css.map": "/Book-It-Now/static/css/main.e4d2dbf9.css.map",
-    "main.31e25263.js.map": "/Book-It-Now/static/js/main.31e25263.js.map",
+    "main.449df812.css.map": "/Book-It-Now/static/css/main.449df812.css.map",
+    "main.c36ca4d4.js.map": "/Book-It-Now/static/js/main.c36ca4d4.js.map",
     "453.0adc9025.chunk.js.map": "/Book-It-Now/static/js/453.0adc9025.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d2dbf9.css",
-    "static/js/main.31e25263.js"
+    "static/css/main.449df812.css",
+    "static/js/main.c36ca4d4.js"
   ]
 }

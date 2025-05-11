@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/bookitnow/static/css/main.b368ee3b.css",
-    "main.js": "/bookitnow/static/js/main.38c46730.js",
-    "static/js/453.0adc9025.chunk.js": "/bookitnow/static/js/453.0adc9025.chunk.js",
-    "static/media/Bangaluru.png": "/bookitnow/static/media/Bangaluru.6467b4484f075eab9964.png",
-    "static/media/Delhi.png": "/bookitnow/static/media/Delhi.0a143cfad9b0a505ae89.png",
-    "static/media/Hydrabad.png": "/bookitnow/static/media/Hydrabad.9f67d1e0d8d822349560.png",
-    "static/media/bg.png": "/bookitnow/static/media/bg.42ba20675d1d23984eed.png",
-    "static/media/Chennai.png": "/bookitnow/static/media/Chennai.08ed0353dbe7ac96054b.png",
-    "static/media/Coimbatore.png": "/bookitnow/static/media/Coimbatore.1e34f31bfea47d7d4676.png",
-    "static/media/Pune.png": "/bookitnow/static/media/Pune.bd6cf183797c04790b0a.png",
-    "static/media/Ahamadabad.png": "/bookitnow/static/media/Ahamadabad.2ed12d4105f1470e7038.png",
-    "static/media/Kochi.png": "/bookitnow/static/media/Kochi.460c3a320f8fabc0a73f.png",
-    "static/media/Mumbai.png": "/bookitnow/static/media/Mumbai.cbd38cf556446dda15a4.png",
-    "static/media/Kolkata.png": "/bookitnow/static/media/Kolkata.484c839ab7a2b37b47ca.png",
-    "static/media/Cinema.png": "/bookitnow/static/media/Cinema.47d42cf17dbadc1380b4.png",
-    "static/media/logo.png": "/bookitnow/static/media/logo.b398b63d78de03768786.png",
-    "index.html": "/bookitnow/index.html",
-    "main.b368ee3b.css.map": "/bookitnow/static/css/main.b368ee3b.css.map",
-    "main.38c46730.js.map": "/bookitnow/static/js/main.38c46730.js.map",
-    "453.0adc9025.chunk.js.map": "/bookitnow/static/js/453.0adc9025.chunk.js.map"
+    "main.css": "/Book-It-Now/static/css/main.e4d2dbf9.css",
+    "main.js": "/Book-It-Now/static/js/main.6fe3d2d1.js",
+    "static/js/453.0adc9025.chunk.js": "/Book-It-Now/static/js/453.0adc9025.chunk.js",
+    "static/media/Bangaluru.png": "/Book-It-Now/static/media/Bangaluru.6467b4484f075eab9964.png",
+    "static/media/Delhi.png": "/Book-It-Now/static/media/Delhi.0a143cfad9b0a505ae89.png",
+    "static/media/Hydrabad.png": "/Book-It-Now/static/media/Hydrabad.9f67d1e0d8d822349560.png",
+    "static/media/bg.png": "/Book-It-Now/static/media/bg.42ba20675d1d23984eed.png",
+    "static/media/Chennai.png": "/Book-It-Now/static/media/Chennai.08ed0353dbe7ac96054b.png",
+    "static/media/Coimbatore.png": "/Book-It-Now/static/media/Coimbatore.1e34f31bfea47d7d4676.png",
+    "static/media/Pune.png": "/Book-It-Now/static/media/Pune.bd6cf183797c04790b0a.png",
+    "static/media/Ahamadabad.png": "/Book-It-Now/static/media/Ahamadabad.2ed12d4105f1470e7038.png",
+    "static/media/Kochi.png": "/Book-It-Now/static/media/Kochi.460c3a320f8fabc0a73f.png",
+    "static/media/Mumbai.png": "/Book-It-Now/static/media/Mumbai.cbd38cf556446dda15a4.png",
+    "static/media/Kolkata.png": "/Book-It-Now/static/media/Kolkata.484c839ab7a2b37b47ca.png",
+    "static/media/Cinema.png": "/Book-It-Now/static/media/Cinema.47d42cf17dbadc1380b4.png",
+    "static/media/logo.png": "/Book-It-Now/static/media/logo.b398b63d78de03768786.png",
+    "index.html": "/Book-It-Now/index.html",
+    "main.e4d2dbf9.css.map": "/Book-It-Now/static/css/main.e4d2dbf9.css.map",
+    "main.6fe3d2d1.js.map": "/Book-It-Now/static/js/main.6fe3d2d1.js.map",
+    "453.0adc9025.chunk.js.map": "/Book-It-Now/static/js/453.0adc9025.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b368ee3b.css",
-    "static/js/main.38c46730.js"
+    "static/css/main.e4d2dbf9.css",
+    "static/js/main.6fe3d2d1.js"
   ]
 }

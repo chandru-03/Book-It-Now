@@ -139,14 +139,14 @@ function Events() {
       setShuffledItems(shuffled);
     }, [filteredItems]);
 
-  const toggleLanguageFilter = (language) => {
+  const toggleCategoryFilter = (show) => {
     setSelectedFilters((prev) => {
-      let updatedFilters = { ...prev, language: prev.language || [] };
+      let updatedFilters = { ...prev, categories: prev.categories || [] };
 
-      if (updatedFilters.language.includes(language)) {
-        updatedFilters.language = updatedFilters.language.filter((filter) => filter !== language);
+      if (updatedFilters.categories.includes(show)) {
+        updatedFilters.categories = updatedFilters.categories.filter((filter) => filter !== show);
       } else {
-        updatedFilters.language = [...updatedFilters.language, language];
+        updatedFilters.categories = [...updatedFilters.categories, show];
       }
       return updatedFilters;
     })
@@ -165,15 +165,15 @@ function Events() {
           <li>
             <FilterBtn onClick={() => setShowFilters(true)} />
           </li>
-          {language.map((language, index) => (
+          {categories.map((category, index) => (
             <li key={`filters-${index}`}>
               <Buttons
                 buttonSize="btns--small"
-                buttonStyle={selectedFilters.language?.includes(language) ? 'btns--outline--bg' : 'btns--outline'}
-                className={`button ${selectedFilters.language?.includes(language) ? 'active' : ''}`}
-                onClick={() => toggleLanguageFilter(language)}
+                buttonStyle={selectedFilters.categories?.includes(category) ? 'btns--outline--bg' : 'btns--outline'}
+                className={`button ${selectedFilters.categories?.includes(category) ? 'active' : ''}`}
+                onClick={() => toggleCategoryFilter(category)}
               >
-                {language}
+                {category}
               </Buttons>
             </li>
           ))}
@@ -188,11 +188,11 @@ function Events() {
                 <img src={event?.img} alt={event?.title} />
                 <h3>{event?.title}</h3>
                 <div className="movie-context">
-                  <p>{event?.singer}</p>
+                  <p>{event?.artist}</p>
                   |
                   <p>{event?.type}</p>
                   |
-                  <p>{event?.genre}</p>
+                  <p>{event?.event}</p>
                 </div>
                 <p>{event?.place}</p>
               </div>

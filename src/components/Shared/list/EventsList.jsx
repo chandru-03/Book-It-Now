@@ -3,7 +3,7 @@ const EventsList = [
         id: 1, title: 'Return Of The Dragon', artist: "Hip Hop Tamizha",category: 'Music Shows', 
         artistImg: 'https://i.scdn.co/image/ab6761610000e5eb67a9c256bee82482d82f2716', 
         artistDesc: `Hiphop Tamizha is an Indian musical duo based in Chennai, Tamil Nadu. The duo consists of Rangadhithya "Adhi" Ramachandran Venkatapathy and R. Jeeva. Their commercial break-through came with the song "Club le Mabbu le" in 2011.`, 
-        img: '/SingingEvent-Posters/Hiphop.png', 
+        img: 'https://i0.wp.com/cinemaspice.in/wp-content/uploads/2024/10/36026-filmmadras-post-thumbnails-79.jpg?fit=1080%2C1080&ssl=1', 
         lgImg: 'https://media.insider.in/image/upload/c_crop,g_custom/v1743167726/jh89kslkyqfa2x0l0fha.jpg', 
         date: '2025-05-13', time: '7:00 PM', place: 'YMCA, Chennai', 
         address: '26FP+PJH, Y.M.C.A College of Physical Education, Nandanam, Chennai, Tamil Nadu 600035', 
@@ -13,7 +13,7 @@ const EventsList = [
         type: 'Outdoor Events',event: 'Music Concert'
     },
     { id: 2, title: 'Rakita Rakita', artist: "Santhosh Narayanan", 
-        img: '/SingingEvent-Posters/Santhosh.png', 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiX4klhdiAC_3v9drOoVB8eMVRv9xlA0VBpg&s', 
         lgImg: 'https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-rakita-rakita-0-2025-2-18-t-2-35-43.jpg',
         artistImg:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_PM-gcfOnDoQZAUDcfulfQF6MSh7XB9nXw&s',
         artistDesc:'Santhosh Narayanan is an Indian film composer and musician who has worked predominately worked in Tamil cinema, while also having some Telugu and Malayalam films to his credit. He is known for his collaborations with Pa. Ranjith and Karthik Subbaraj',

@@ -2,7 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     Block: '',
-    // BlockPrice : 0,
     blockRows: 0,
     blockCols: 0,
 }
@@ -13,7 +12,6 @@ const stadiumSlice = createSlice({
     reducers: {
         Block: (state, action) => {
             const block = action.payload;
-            // const blockPrice = action.payload;
             let row = 0;
             let col = 0;
             switch (block) {
@@ -55,7 +53,7 @@ const stadiumSlice = createSlice({
                     row = 36; col = 20; break;
                 case 'OLD CLUB HOUSE CORPORATE BOXES':
                     row = 24; col = 20; break;
-                case 'HILL B SOUTH WEST':
+                case 'HILL B SOUTH WEST' || 'HILL B SOUTH WEST PREMIUM':
                     row = 48; col = 20; break;
                 case 'NORTH EAST THIRD FLOOR':
                     row = 18; col = 24; break;
@@ -66,10 +64,9 @@ const stadiumSlice = createSlice({
                 case 'NE GROUND PREMIUM':
                     row = 12; col = 8; break;
                 default:
-                    row = 5; col = 5;
+                    row = 12; col = 15;
             }
             state.Block = block;
-            // state.BlockPrice = blockPrice
             state.blockRows = row;
             state.blockCols = col;
         },

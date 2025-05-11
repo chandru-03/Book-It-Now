@@ -37,6 +37,7 @@ body{
     cursor: pointer;
     width: 100vw;
     height: 100vh;
+    margin-left: 70px;
 }
 
 .movie-container img{
@@ -69,6 +70,13 @@ body{
     margin-top: 20px;
   }
 
+  .movie-view-card h3{
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
 .movie-context{
     display: flex;
     justify-content: center;
@@ -81,6 +89,10 @@ body{
     margin-top: 20px;
     color:#BCBCBC;
     font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
 }
 
 p{

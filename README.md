@@ -102,7 +102,7 @@ _Add screenshots or a screen recording here._
 **Chandru**  
 📫 [chandru@example.com](mailto:chandru@example.com)  
 🌐 [GitHub Profile](https://github.com/chandru-03)
-🌎 [LinkedIN Profile (https://www.linkedin.com/in/chandruj3)
+🌎 [LinkedIN Profile] (https://www.linkedin.com/in/chandruj3)
 
 ---
 

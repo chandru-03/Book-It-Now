@@ -1,6 +1,6 @@
 # 🎬 Book-It-Now
 
-A full-featured movie, sports, and event ticket booking web application built with React, Redux, and JSON Server. It includes seat selection, payment, authentication, admin dashboard, and more — similar to platforms like BookMyShow.
+A full-featured movie, sports, and event ticket booking web application built with React, Redux, and JSON Server. It includes seat selection, payment, authentication, admin dashboard, and more — similar to platforms like BookMyShow and District.
 
 ---
 
